@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--  Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Estilo padrão da página-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Loff Sistemas</title>
+    <link rel="icon" type="imagem/png" href="./Images/icone.png" />
+</head>
+<body>
+    <!-- sidebar -->
+    <div class="homeContent">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </nav>
+        <div class="homepage">
+            <div class="row">
+                <img class="icone hometitle" src="./Images/iconeTitulo.png">
+                <h1>Loff Sistemas</h1>
+            </div>
+            <hr>
+            <div class="media">
+                <img src="./Images/avt_img_1.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                <div class="media-body">
+                    <h4>John Doe <small><i>Postado em 05 de Setembro 2022</i></small></h4>
+                    <p>Lorem ipsum...</p>
+                    <div class="media p-3">
+                        <img src="./Images/avt_img_2.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+                        <div class="media-body">
+                            <h4>Jane Doe <small><i>Postado em 07 de Setembro 2022</i></small></h4>
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </div>
+                    <div class="media p-3">
+                        <img src="./Images/avt_img_1.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+                        <div class="media-body">
+                            <h4>John Doe <small><i>Postado em 07 de Setembro 2022</i></small></h4>
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="logoContent">
+                            <div class="logo">
+                                <i class='bx bxl-tux'></i>
+                                <div class="logoName">Loff Sistemas</div>
+                            </div>
+                            <!-- logo -->
+                            <i class='bx bx-menu' id='btn'></i>
+                        </div>
+                        <!-- logoContent -->
+                        <ul class="nav_list">
+                            <li>                
+                                <i class='bx bx-search-alt'></i>
+                                <input type="search" name="search" placeholder="Procurar...">
+                                <span class="toolipe">Procurar</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bx-grid-alt'></i>
+                                    <span class="links_name">DashBoard</span>
+                                    <span class="toolipe">DashBoard</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxs-user'></i>
+                                    <span class="links_name">Usuário</span>
+                                    <span class="toolipe">Usuário</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bx-cog'></i>
+                                    <span class="links_name">Configurações</span>
+                                    <span class="toolipe">Configurações</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bx-folder'></i>
+                                    <span class="links_name">Arquivos</span>
+                                    <span class="toolipe">Arquivos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bx-chat'></i>
+                                    <span class="links_name">Mensagens</span>
+                                    <span class="toolipe">Mensagens</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bx-notepad'></i>
+                                    <span class="links_name">Relátorios</span>
+                                    <span class="toolipe">Relátorios</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bx-cart'></i>
+                                    <span class="links_name">Vendas</span>
+                                    <span class="toolipe">Vendas</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- navlist -->
+                        <div class="profileContent">
+                            <div class="profile">
+                                <div class="profileDetail">
+                                    <img src="./Images/imgProfile.jpeg">
+                                    <div class="name_Job">
+                                        <div class="name">Fernando Luís Loff</div>
+                                        <div class="job">Desenvolvedor Web</div>
+                                    </div>
+                                </div>
+                                <!-- profileDetail -->
+                                <i class='bx bx-log-out' id="logout"></i>
+                            </div>
+                            <!-- profile -->
+                        </div>
+                        <!-- profilecontent -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const btn = document.querySelector('#btn');
+        const bxSearch = document.querySelector('.bx-search');
+        const sidebar = document.querySelector('.sidebar');
+        const home = document.querySelector('.homeContent');
+
+        btn.addEventListener('click',()=>{
+            sidebar.classList.toggle('active');
+            home.classList.toggle('active');
+        });
+
+        bxSearch.addEventListener('click',()=>{
+            sidebar.classList.toggle('active');
+            home.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
